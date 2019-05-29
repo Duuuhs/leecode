@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * @Author: DMY
  * @Date: 2019/4/8 15:41
- * @Description: (编程题) 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
+ * @Description:  (编程题) 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
  */
 public class Solution3 {
 
