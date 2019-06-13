@@ -33,7 +33,7 @@ public class Solution13 {
         int[] arr = {1,3,2,4,5,6,8,10,7,9};
         Integer[] swap = swap(arr);
         for (int i : swap) {
-            System.out.print(i + " ");
+            System.out.print(i + " ");//1 3 5 7 9 2 4 6 8 10
         }
     }
 }
