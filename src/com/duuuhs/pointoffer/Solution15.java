@@ -11,7 +11,7 @@ public class Solution15 {
 
 
     /*
-     * 是中分为两部分,一部分是已经反转的,用pre表示,一部分是为反转的,用next表示
+     * 需要借用pre和next来表示前一个节点和后一个节点,head代表当前的节点
      */
     public static ListNode reverseList(ListNode head){
         if (head == null){
