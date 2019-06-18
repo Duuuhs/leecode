@@ -6,10 +6,10 @@ package com.duuuhs.pointoffer;
  * @Description:  自定义一个链表结构,该结构包括值和指向下一个节点的指针。
  */
 public class ListNode {
-    Object val;
+    int val;
     ListNode next = null;
 
-    public ListNode(Object val){
+    public ListNode(int val){
         this.val = val;
     }
 
