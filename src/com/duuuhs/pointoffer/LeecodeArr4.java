@@ -53,7 +53,7 @@ public class LeecodeArr4 {
                     if (sum == target){
                         list.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
                         //左右分别去重剔除掉与当前数相同的重复left与重复right情况
-                        //左去重
+                        //左去重 
                         while (left < right && nums[left] == nums[left+1]){
                             left++;
                         }
