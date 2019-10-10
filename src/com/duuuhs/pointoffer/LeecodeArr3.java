@@ -42,6 +42,6 @@ public class LeecodeArr3 {
     public static void main(String[] args) {
         int arr[] = {-1, 2, 1, -4};
         int target = 1;
-        System.out.println(threeSumClosest(arr, target));
+        System.out.println(threeSumClosest(arr, target)); 
     } 
 }
