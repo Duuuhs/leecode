@@ -33,7 +33,7 @@ public class LeecodeDP3 {
          * 遍历第一列，如果有一个格点初始值为 1 ，说明当前节点有障碍物，没有路径可以通过，设值为 0 ；否则设这个值是前一个节点的值 obstacleGrid[i,j] = obstacleGrid[i-1,j]。
          * 现在，从 obstacleGrid[1,1] 开始遍历整个数组，如果某个格点初始不包含任何障碍物，就把值赋为上方和左侧两个格点方案数之和 obstacleGrid[i,j] = obstacleGrid[i-1,j] + obstacleGrid[i,j-1]。
          * 如果这个点有障碍物，设值为 0 ，这可以保证不会对后面的路径产生贡献。
-         *
+         * 
          */
         if (obstacleGrid == null || obstacleGrid.length == 0 || obstacleGrid[0][0] == 1){
             return 0;
